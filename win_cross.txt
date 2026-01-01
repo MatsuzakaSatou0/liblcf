@@ -1,0 +1,5 @@
+[binaries]
+c = 'clang-cl'
+cpp = 'clang-cl'
+pkg-config = ['pkg-config.exe']
+cmake = ['cmake.exe']

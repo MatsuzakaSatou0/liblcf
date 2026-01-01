@@ -18,6 +18,11 @@ stamp-h1
 *.la
 *.lo
 
+#pkg-config build
+*.bat
+*.pc
+conan_meson_native.ini
+
 # cmake build method
 bin/
 CMakeCache.txt

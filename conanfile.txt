@@ -1,0 +1,7 @@
+[requires]
+inih/62
+expat/2.7.3
+icu/78.1
+[generators]
+PkgConfigDeps
+MesonToolchain

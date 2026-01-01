@@ -6,6 +6,10 @@ It can read and write LCF and XML files.
 liblcf is part of the EasyRPG Project. More information is available
 at the project website: https://easyrpg.org/
 
+```
+conan install . --output-folder=build --build=missing -s compiler=clang -s compiler.version=16 -o icu/*:shared=False  -o with_dyload=True
+$env:PKG_CONFIG_PATH = "$(Get-Location)\build"
+```
 
 ## Documentation
 
